@@ -1,14 +1,14 @@
 export default function Login() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <form className="flex flex-col text-center gap-4">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <form className="flex flex-col text-center gap-4 bg-white p-15 rounded-md">
         <h1 className="font-mono text-4xl text-indigo-950 font-semibold">Meu Imóvel</h1>
 
         <h2 className="text-4xl text-indigo-950 font-semibold">Entrar</h2>
 
-        <input type="email" name="email" id="email" placeholder="Email" className="p-2 bg-gray-100 rounded-md"/>
+        <input type="email" name="email" id="email" placeholder="Email" className="p-2 bg-gray-100 rounded-md shadow-lg"/>
 
-        <input type="password" name="password" id="password" placeholder="Senha" className="p-2 bg-gray-100 rounded-md"/>
+        <input type="password" name="password" id="password" placeholder="Senha" className="p-2 bg-gray-100 rounded-md shadow-lg"/>
 
         <button type="submit" className="py-2 bg-blue-400 text-white text-xl rounded-md">Acessar</button>
         
