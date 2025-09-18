@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default function Login() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
@@ -12,9 +14,10 @@ export default function Login() {
 
         <button type="submit" className="py-2 bg-blue-400 text-white text-xl rounded-md">Acessar</button>
         
-        <a href="#" className="text-blue-400">Esqueceu a senha?</a>
+        <a href="/Dashboard" className="text-blue-400">Esqueceu a senha?</a>
 
         <p>Ainda não tem conta? <a href="#" className="text-blue-400 font-bold">Cadastre-se</a></p>
+
       </form>
     </div>
   )
