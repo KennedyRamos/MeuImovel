@@ -4,19 +4,22 @@ import Nav from "../components/nav";
 
 export default function Dashboard() {
   return (
-    <div className="h-screen p-4 bg-gray-100">
+    <div className="h-screen bg-gray-100">
       <Header></Header>
 
-      <main className="my-5">
+      <main className="p-4">
         <section>
           <h2 className="text-3xl font-semibold">Dashboard</h2>
 
-          <div className="text-center">
-            <div className="bg-blue-50 m-4 rounded-md inset-shadow-sm inset-shadow-blue-500">
-              <h3 className="text-2xl font-medium text-blue-800">Imóveis</h3>
+          <div className="text-center m-5 grid gap-5">
+            <div className="p-3 rounded-md shadow-md shadow-gray-950/50 font-medium border-3 border-blue-100 ">
+              <h3 className="text-2xl text-blue-800">Imóveis</h3>
+              <p className="text-9xl">5</p>
             </div>
-            <div className="bg-blue-50 m-4 rounded-md inset-shadow-sm inset-shadow-blue-500 font-medium">
+
+            <div className="p-3 rounded-md shadow-md shadow-gray-950/50 font-medium border-3 border-blue-100">
               <h3 className="text-2xl text-blue-800">Atrasados</h3>
+              <p className="text-9xl">5</p>
             </div>
           </div>
         </section>
