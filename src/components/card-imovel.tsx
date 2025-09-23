@@ -1,7 +1,7 @@
 export default function CardDashboard() {
   return (
     <div>
-      <div className="shadow-xl">
+      <div className="shadow-xl rounded-lg">
         <div className="grid grid-cols-2 my-5 ">
           <div className="text-center col-span-2">
             <p className="text-3xl">casa 1</p>
@@ -28,7 +28,7 @@ export default function CardDashboard() {
           </h4>
         </div>
 
-        <button className="w-full bg-green-500 text-center text-lg font-semibold text-white p-2 rounded-b-lg uppercase">
+        <button className="w-full bg-green-500 text-center text-lg font-semibold text-white p-2 uppercase rounded-b-lg">
           Confirmar pagamento
         </button>
       </div>
