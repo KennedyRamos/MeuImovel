@@ -24,7 +24,7 @@ export default function Dashboard() {
           </div>
         </section>
 
-        <section className=" pb-20">
+        <section className=" mt-10 mb-18 grid gap-6">
           <h2 className="text-3xl font-semibold">Últimas Atualizações</h2>
           <CardImovel></CardImovel>
         </section>
