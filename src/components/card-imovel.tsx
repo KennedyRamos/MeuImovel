@@ -1,8 +1,8 @@
 export default function CardDashboard() {
   return (
-    <div>
+    <div className="grid gap-10">
       <div className="shadow-xl rounded-lg">
-        <div className="grid grid-cols-2 my-5 ">
+        <div className="grid grid-cols-2 mb-3 ">
           <div className="text-center col-span-2">
             <p className="text-3xl">casa 1</p>
 
