@@ -8,9 +8,9 @@ export default function Imoveis() {
         <div>
             <Header></Header>
 
-            <main className="p-4">
+            <main className="mx-4 bg-gray-100">
                 <h2 className="text-center text-3xl font-semibold">Imóveis</h2>
-                <section className=" mb-18">
+                <section className=" mb-20">
                     <Pesquisa></Pesquisa>
                     <CardImovel></CardImovel>
                 </section>
