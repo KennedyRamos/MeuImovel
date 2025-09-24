@@ -9,9 +9,9 @@ export default function Pesquisa() {
         name="pesquisa"
         id="pesquisa"
         placeholder="Pesquisar"
-        className="w-full border border-blue-500/50 font-semibold rounded-sm p-2"
+        className="w-full border-2 border-gray-500 font-semibold rounded-sm py-1.5 px-2"
       />
-      <button className="flex "><FontAwesomeIcon icon={faMagnifyingGlass} className="bg-blue-400 text-white p-3 rounded-sm" /></button>
+      <button className="flex"><FontAwesomeIcon icon={faMagnifyingGlass} className="bg-blue-400 text-white p-3 rounded-sm" /></button>
     </div>
   );
 }
