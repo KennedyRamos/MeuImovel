@@ -1,8 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons"
-import { faAngleUp } from "@fortawesome/free-solid-svg-icons"
+import { Icons } from "../icons/icons"
 
-export default function cardInquilinos () {
+export default function CardInquilinos () {
     return(
         <div className="grid gap-10">
             <div className="shadow-xl rounded-lg grid grid-cols-2 gap-3 text-center p-2 border-y-5 border-blue-400">
@@ -17,7 +15,7 @@ export default function cardInquilinos () {
                 </div>
 
                 <button className="col-span-2">
-                    <FontAwesomeIcon icon={faAngleDown} className="text-white text-2xl p-2 bg-blue-400 rounded-xl" />
+                    <Icons.SetaBaixo className="text-white text-2xl p-2 bg-blue-400 rounded-xl" />
                 </button>
             </div>
         </div>
