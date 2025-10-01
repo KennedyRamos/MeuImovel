@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
+import { Icons } from "../icons/icons"
 
 export default function Pesquisa() {
   return (
@@ -12,7 +11,7 @@ export default function Pesquisa() {
         className="w-full border-2 border-gray-500 font-semibold rounded-sm py-1.5 px-2"
       />
       <button className="flex">
-        <FontAwesomeIcon icon={faMagnifyingGlass} className="bg-blue-400 text-white p-3 rounded-sm" />
+        <Icons.Lupa className="bg-blue-400 text-white p-3 rounded-sm" />
       </button>
     </div>
   );

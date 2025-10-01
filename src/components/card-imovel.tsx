@@ -1,8 +1,10 @@
-export default function CardDashboard() {
+export default function CardImovel() {
   return (
     <div className="grid gap-10">
       <div className="shadow-xl rounded-lg">
+        
         <div className="grid grid-cols-2 pb-3">
+          
           <div className="text-center col-span-2">
             <p className="text-3xl">casa 1</p>
 
