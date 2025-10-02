@@ -1,9 +1,13 @@
 import { Icons } from "../icons/icons";
+import Deletar from "./btn-deletar";
 
 export default function CardContrato() {
   return (
     <div className="grid gap-8">
-      <div className="border-l-4 border-blue-400 rounded-sm flex justify-around shadow-md">
+      <div className="border-l-4 border-blue-400 rounded-sm flex justify-around shadow-md relative">
+        
+        <Deletar></Deletar>
+        
         <div className="text-center w-5/6">
           <div>
             <p className="text-xl">Rua Adolfo, 305</p>
@@ -18,7 +22,7 @@ export default function CardContrato() {
             <h3 className="font-medium text-indigo-800 uppercase">Vigência</h3>
           </div>
         </div>
-        <button>
+        <button className="flex items-end pb-2">
           <Icons.Download className="text-3xl text-blue-600" />
         </button>
       </div>

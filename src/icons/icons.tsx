@@ -5,6 +5,8 @@ import {
     faAngleDown,
     faAngleUp,
     faDownload,
+    faTrashCan,
+    faPlus,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const Icons = {
@@ -15,4 +17,8 @@ export const Icons = {
     SetaCima: (props: any) => <FontAwesomeIcon icon={faAngleUp} {...props} />,
 
     Download: (props: any) => <FontAwesomeIcon icon={faDownload} {...props} />,
+
+    Deletar: (props: any) => <FontAwesomeIcon icon={faTrashCan} {...props} />,
+
+    Adicionar: (props: any) => <FontAwesomeIcon icon={faPlus} {...props} />,
 }

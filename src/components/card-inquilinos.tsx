@@ -1,9 +1,13 @@
 import { Icons } from "../icons/icons"
+import Deletar from "./btn-deletar"
 
 export default function CardInquilinos () {
     return(
         <div className="grid gap-10">
-            <div className="shadow-xl rounded-lg grid grid-cols-2 gap-3 text-center p-2 border-y-5 border-blue-400">
+            <div className="shadow-xl rounded-lg grid grid-cols-2 gap-3 text-center p-2 border-y-5 border-blue-400 relative">
+
+                <Deletar></Deletar>
+
                 <div>
                     <p className="text-2xl font-semibold">Ayrton Ferraz</p>
                     <h3 className="font-medium text-blue-800">Inquilino</h3>
