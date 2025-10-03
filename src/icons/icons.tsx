@@ -7,6 +7,7 @@ import {
     faDownload,
     faTrashCan,
     faPlus,
+    faArrowUpFromBracket,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const Icons = {
@@ -21,4 +22,6 @@ export const Icons = {
     Deletar: (props: any) => <FontAwesomeIcon icon={faTrashCan} {...props} />,
 
     Adicionar: (props: any) => <FontAwesomeIcon icon={faPlus} {...props} />,
+
+    Upload: (props: any) => <FontAwesomeIcon icon={faArrowUpFromBracket} {...props} />,
 }
