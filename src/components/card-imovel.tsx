@@ -3,29 +3,33 @@ import Deletar from "./btn-deletar";
 export default function CardImovel() {
   return (
     <div className="grid gap-10">
-      <div className="shadow-md rounded-lg relative">
+      <div className="shadow-md rounded-lg">
+
         
-        <Deletar></Deletar>
-
-        <div className="grid grid-cols-2 pb-3">
+        <div className="flex justify-between">
           
-          <div className="text-center col-span-2">
-            <p className="text-3xl">casa 1</p>
+          <div className="grid grid-cols-2 pb-3 w-full">
+            
+            <div className="text-center col-span-2">
+              <p className="text-3xl">casa 1</p>
 
-            <h3 className="text-lg font-medium text-indigo-800">Imóvel</h3>
+              <h3 className="text-lg font-medium text-indigo-800">Imóvel</h3>
+            </div>
+
+            <div className="text-center">
+              <p className="text-xl">Seu Jõao</p>
+
+              <h3 className="font-medium text-indigo-800">Inquilino</h3>
+            </div>
+
+            <div className="text-center">
+              <p className="text-xl">5</p>
+
+              <h3 className="font-medium text-indigo-800">Contrato (meses)</h3>
+            </div>
           </div>
 
-          <div className="text-center">
-            <p className="text-xl">Seu Jõao</p>
-
-            <h3 className="font-medium text-indigo-800">Inquilino</h3>
-          </div>
-
-          <div className="text-center">
-            <p className="text-xl">5</p>
-
-            <h3 className="font-medium text-indigo-800">Contrato (meses)</h3>
-          </div>
+          <Deletar></Deletar>
         </div>
 
         <div className="p-2 bg-blue-400 text-white text-center font-semibold">

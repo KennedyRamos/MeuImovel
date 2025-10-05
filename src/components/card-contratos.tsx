@@ -6,8 +6,7 @@ export default function CardContrato() {
     <div className="grid gap-8">
       <div className="border-l-4 border-blue-400 rounded-sm flex justify-around shadow-md relative">
         
-        <Deletar></Deletar>
-        
+
         <div className="text-center w-5/6">
           <div>
             <p className="text-xl">Rua Adolfo, 305</p>
@@ -22,9 +21,12 @@ export default function CardContrato() {
             <h3 className="font-medium text-indigo-800 uppercase">Vigência</h3>
           </div>
         </div>
-        <button className="flex items-end pb-2">
-          <Icons.Download className="text-3xl text-blue-600" />
-        </button>
+        <div className="flex flex-col gap-4">
+          <Deletar></Deletar>
+          <button className="">
+            <Icons.Download className="text-3xl text-blue-600" />
+          </button>
+        </div>
       </div>
     </div>
   );
