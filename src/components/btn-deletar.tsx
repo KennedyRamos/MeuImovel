@@ -2,8 +2,8 @@ import { Icons } from "../icons/icons"
 
 export default function Deletar(){
     return(
-        <div className="text-2xl p-3 bg-gray-100">
-            <Icons.Deletar className="text-red-600/80"/>
-        </div>
+        <button className="flex items-start text-2xl p-3 text-red-600/80 cursor-pointer">
+            <Icons.Deletar/>
+        </button>
     )
 }
