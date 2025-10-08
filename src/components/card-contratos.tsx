@@ -25,7 +25,7 @@ export default function CardContrato() {
         <div className="flex flex-col gap-4">
           <Deletar></Deletar>
           <button className="">
-            <Icons.Download className="text-3xl text-blue-600" />
+            <Icons.Download className="text-3xl text-blue-600 cursor-pointer" />
           </button>
         </div>
       </div>

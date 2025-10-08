@@ -31,8 +31,8 @@ export default function CardInquilinos() {
           <Editar></Editar>
         </div>
 
-        <button>
-          <Icons.SetaBaixo className="text-white text-2xl p-2 bg-blue-400 rounded-xl" />
+        <button className="mx-auto text-white text-2xl p-2 bg-blue-400 rounded-lg cursor-pointer">
+          <Icons.SetaBaixo />
         </button>
       </div>
 
