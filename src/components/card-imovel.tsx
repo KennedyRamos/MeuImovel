@@ -1,4 +1,5 @@
 import Deletar from "./btn-deletar";
+import Editar from "./btn-editar";
 
 export default function CardImovel() {
   return (
@@ -37,6 +38,10 @@ export default function CardImovel() {
 
           <div className="absolute right-0">
             <Deletar></Deletar>
+          </div>
+
+          <div className="absolute">
+            <Editar></Editar>
           </div>
         </div>
 
