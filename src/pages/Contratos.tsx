@@ -18,7 +18,7 @@ export default function Contratos(){
                     <div className="flex justify-between my-5">
                         <h2 className="text-center text-2xl font-semibold">Contratos</h2>
                         
-                        <div className="bg-blue-400 p-1.5 rounded-md text-white text-xl cursor-pointer">
+                        <div className="bg-blue-400 p-1.5 rounded-sm text-white text-2xl cursor-pointer">
                             <Icons.Upload/>
                         </div>
                     </div>
