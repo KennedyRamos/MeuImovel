@@ -9,6 +9,7 @@ import {
     faPlus,
     faArrowUpFromBracket,
     faPenToSquare,
+    faCircleUser,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const Icons = {
@@ -27,4 +28,6 @@ export const Icons = {
     Upload: (props: any) => <FontAwesomeIcon icon={faArrowUpFromBracket} {...props} />,
 
     Editar: (props: any) => <FontAwesomeIcon icon={faPenToSquare} {...props} />,
+
+    Perfil: (props: any) => <FontAwesomeIcon icon={faCircleUser} {...props} />,
 }
