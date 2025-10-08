@@ -6,11 +6,13 @@ import { Icons } from "../icons/icons";
 
 export default function Contratos(){
     return(
-        <div>
+        <div className="min-h-screen bg-gray-100 flex flex-col">
+
             <Header></Header>
-            <main className="mx-4 bg-gray-100">
+
+            <main className="w-full flex-1 mx-auto px-4 grid gap-10 lg:w-2/3 shadow-xl/50">
                 
-                <section className=" mb-20">
+                <section className=" pb-20">
                     <Pesquisa></Pesquisa>
                     
                     <div className="flex justify-between my-5">
@@ -18,7 +20,9 @@ export default function Contratos(){
                         <Icons.Upload className="bg-blue-400 p-1.5 rounded-md text-white text-2xl"/>
                     </div>
                     
-                    <CardContrato></CardContrato>
+                    <div className="lg:mx-1">
+                        <CardContrato></CardContrato>
+                    </div>
                 </section>
             </main>
             <Nav></Nav>
