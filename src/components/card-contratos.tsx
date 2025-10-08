@@ -3,7 +3,8 @@ import Deletar from "./btn-deletar";
 
 export default function CardContrato() {
   return (
-    <div className="grid gap-8">
+    <div className="grid gap-5 lg:grid-cols-2">
+      
       <div className="border-l-4 border-blue-400 rounded-sm flex justify-around shadow-md relative">
         
 

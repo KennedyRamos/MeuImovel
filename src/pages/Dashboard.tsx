@@ -4,10 +4,10 @@ import Nav from "../components/nav";
 
 export default function Dashboard() {
   return (
-    <div className="m-auto min-h-screen bg-gray-100 lg:w-2/3 shadow-xl/50">
+    <div className="min-h-screen bg-gray-100 flex flex-col">
       <Header></Header>
 
-      <main className="mx-4 grid gap-10">
+      <main className="w-full flex-1 mx-auto px-4 grid gap-10 lg:w-2/3 shadow-xl/50">
         <section>
           <h2 className="text-3xl font-semibold">Dashboard</h2>
 
@@ -24,9 +24,9 @@ export default function Dashboard() {
           </div>
         </section>
 
-        <section className="mb-20 grid gap-6">
+        <section className="pb-20 grid gap-6">
           <h2 className="text-3xl font-semibold">Últimas Atualizações</h2>
-          <div className="lg:mx-10">
+          <div className="lg:mx-2">
             <CardImovel></CardImovel>
           </div>
         </section>
